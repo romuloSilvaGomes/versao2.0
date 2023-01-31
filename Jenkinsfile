@@ -12,6 +12,7 @@ pipeline {
                  steps('INICIO DO STEP'){
                     
                   sh('echo ${STATEMENT}')
+                   sh('ls')
                  }
           }
       }
