@@ -11,7 +11,7 @@ pipeline {
            
                  steps('INICIO DO STEP'){
                     
-                   echo ${STATEMENT}
+                   echo "${STATEMENT}"
                  }
           }
       }
