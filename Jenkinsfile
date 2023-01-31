@@ -1,10 +1,10 @@
 pipeline {
   
-  node any 
+  agent any 
     stages {
           stage ('INICIANDO PIPELINE'){
            
-                 step('INICIO DO STEP'){
+                 steps('INICIO DO STEP'){
                     
                    echo "Dentro do Step"
                  }
